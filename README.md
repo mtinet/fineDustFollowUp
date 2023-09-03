@@ -20,17 +20,17 @@
 
 ## fineDustFollowUp
 #### 1. 이 폴더에는 Raspberry Pi Pico W를 활용해 OpenWeather에서 제공하는 정보를 가져와서 서비스 하는 예제 파일들이 담겨 있다. 각 파일에 대한 설명은 다음과 같다. 
-1. wifiConnect.py
-2. getTime.py
-3. setTimezone.py
-4. getWeather.py
-5. getPolution.py
-6. neopixelControl.py
-7. neopixelExtension1.py
-8. neopixelExtension2.py
-9. neopixelExtension3.py
-10. base.py
-11. baseExtension.py
-12. autoFineDustCheckByPicoW.py
+1. wifiConnect.py: Pico W를 와이파이에 연결하는 방법
+2. getTime.py: 시간정보(그리니치 기준시)를 가져오는 방법
+3. setTimezone.py: 시간정보를 서울시간으로 바꾸는 방법
+4. getWeather.py: OpenWeather에서 날씨 정보를 가져오는 방법
+5. getPolution.py: OpenWeather에서 공기오염 정보를 가져오는 방법
+6. neopixelControl.py: 네오픽셀을 다루는 방법
+7. neopixelExtension1.py: 네오픽셀의 각 셀에 불빛을 빙글빙글 돌리는 방법
+8. neopixelExtension2.py: 색깔을 부드럽게 전환하는 방법
+9. neopixelExtension3.py: 색깔을 무지개 빛깔로 제어하는 방법
+10. base.py: 미세먼지 정보, 위치 정보, 시간정보를 활용해 원하는 위치의 미세먼지 수준을 네오픽셀의 빛깔로 표현하는 방법
+11. baseExtension.py: 미세먼지 정보, 위치 정보, 시간정보를 활용해 원하는 위치의 미세먼지 수준을 네오픽셀의 빛깔로 표현할 때 점점 밝아졌다가 점점 어두워지게 하는 방법
+12. autoFineDustCheckByPicoW.py: 자동으로 사용자가 지정한 세 곳의 미세먼지 수준을 순환하며 보여주는 방법
 - neopixel.py
 - timezoneChange.py
