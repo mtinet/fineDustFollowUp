@@ -20,7 +20,7 @@ def wifiConnect():
     wlan.active(True)
     if not wlan.isconnected():
         # 와이파이 연결하기
-        wlan.connect(SSID, password)  # 12, 13번 줄에 입력한 SSID와 password가 입력됨
+        wlan.connect(SSID, password)  # 6, 7번 줄에 입력한 SSID와 password가 입력됨
         print("Waiting for Wi-Fi connection", end="...")
         print()
         while not wlan.isconnected():
