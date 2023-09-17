@@ -1,5 +1,8 @@
 # fineDustFollowUp
 
+## Lecture
+[t.ly/vfVNF](t.ly/vfVNF)
+
 ## openweathermap
 #### 1. 아래에 있는 OpenWeather 사이트로 들어간다.
 [https://openweathermap.org/](https://openweathermap.org/)
