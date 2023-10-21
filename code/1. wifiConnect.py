@@ -1,4 +1,5 @@
 import network
+import time
 
 # 와이파이 정보 
 SSID = 'U+Net454C'
